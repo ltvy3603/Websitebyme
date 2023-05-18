@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product Card: Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-gem"></i> Jelwery </a>
+    
+        <nav class="navbar">
+            <a href="./index.html">home</a>
+            <a href="./products.html">products</a>
+            <a href="./about.html" >about</a>
+            <a href="index.html#arrivals">arrivals</a>
+            <a href="./contact.html">contact</a>
+            <div class="blog-container">
+            <a href="index.html#blogs">blogs</a>
+
+              <div class="multi-level">
+                    <span></span>
+                    <a href="./blog1.html"><button>Gem Obsessed</button></a>
+                    <a href="./blog2.html"><button>IDazzle</button></a>
+                    <a href="./blog3.html"><button>Rio Grande Blog</button></a>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="./products.html" class="fas fa-shopping-cart"></a>
+            <a href="./signin.html" class="fas fa-user"></a>
+        </div>
+    
+        <form action="" class="search-form">
+            <input type="search" placeholder="search here..." id="input-box">
+            <label for="input-box" class="fas fa-search"></label>
+        </form>
+    
+    </header>
+    <div class = "card-wrapper">
+      <div class = "card">
+        <!-- card left -->
+        <div class = "product-imgs">
+          <div class = "img-display">
+            <div class = "img-showcase">
+              <img src = "img/Populars/Ring2.webp" alt = "">
+              <img src = "https://tse4.mm.bing.net/th?id=OIP.JFLXTu45FqGISe-zciDWQQHaF7&pid=Api&P=0" alt = "">
+              <img src = "https://www.beejewel.com.au/jpegs_400a/22414_CRW.jpg" alt = "">
+              <img src = "https://tse4.mm.bing.net/th?id=OIP.Zb7xkYjGmPdAK35GVUFd3gHaHa&pid=Api&P=0" alt = "">
+            </div>
+          </div>
+          <div class = "img-select">
+            <div class = "img-item">
+              <a href = "#" data-id = "1">
+                <img src = "img/Populars/Ring2.webp" alt = "">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "2">
+                <img src = "https://tse4.mm.bing.net/th?id=OIP.JFLXTu45FqGISe-zciDWQQHaF7&pid=Api&P=0" alt = "">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "3">
+                <img src = 'https://www.beejewel.com.au/jpegs_400a/22414_CRW.jpg'>
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "4">
+                <img src = "https://tse4.mm.bing.net/th?id=OIP.Zb7xkYjGmPdAK35GVUFd3gHaHa&pid=Api&P=0" alt = "">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- card right -->
+        <div class = "product-content">
+          <h2 class = "product-title">HEART RINGS</h2>
+          <div class = "product-rating">
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star"></i>
+            <i class = "fas fa-star-half-alt"></i>
+            <span>5 (30)</span>
+          </div>
+
+          <div class = "product-price">
+            <p class = "last-price">Old Price: <span>$36.00</span></p>
+            <p class = "new-price">New Price: <span>$30.60</span></p>
+          </div>
+
+          <div class = "product-detail">
+            <h2>about this item: </h2>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga tenetur placeat sapiente architecto illum soluta consequuntur, aspernatur quidem at sequi ipsa!</span>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde.</span>
+            <ul>
+              <li>Color: <span>GOLD</span></li>
+              <li>Available: <span>in stock</span></li>
+              <li>Category: <span>Rings</span></li>
+              <li>Shipping Area: <span>All over the world</span></li>
+              <li>Shipping Fee: <span>Free</span></li>
+            </ul>
+          </div>
+
+          <div class = "purchase-info">
+            <input type = "number" min = "0" value = "1">
+            <button type = "button" class = "btn">
+              BUY NOW <i class = "fas fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="footer" id="footer">
+
+      <div class="box-container">
+  
+          <div class="box" data-aos="fade-right">
+              <h3>services</h3>
+              <a href="#"> <i class="fas fa-gem"></i> rings </a>
+              <a href="#"> <i class="fas fa-gem"></i> bracelets </a>
+              <a href="#"> <i class="fas fa-gem"></i> earrings </a>
+              <a href="#"> <i class="fas fa-gem"></i> necklaces </a>
+              <a href="#"> <i class="fas fa-gem"></i> new products </a>
+          </div>
+  
+          <div class="box" data-aos="fade-down">
+              <h3>quick links</h3>
+              <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+              <a href="./products.html"> <i class="fas fa-arrow-right"></i> products </a>
+              <a href="./about.html"> <i class="fas fa-arrow-right"></i> about </a>
+              <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+              <a href="./contact.html"> <i class="fas fa-arrow-right"></i> contact </a>
+              <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+          </div>
+  
+          <div class="box" data-aos="fade-up">
+              <h3>contact us</h3>
+              <a href="tel://0363367523"> <i class="fas fa-phone"></i> 0363367523 </a>
+              <a href="tel://0977361050"> <i class="fas fa-phone"></i> 0977361050 </a>
+              <a href="mailto: 21126107@student.hcmute.edu.vn"> <i class="fas fa-envelope"></i> 21126107@student.hcmute.edu.vn </a>
+              <a href="mailto: 21126029@student.hcmute.edu.vn"> <i class="fas fa-envelope"></i> 21126024@student.hcmute.edu.vn </a>
+              <a href="#contact"> <i class="fas fa-gem"></i> 702 Xa Lo Ha Noi </a>
+          </div>
+  
+          <div class="box" data-aos="fade-left">
+              <h3>contact us</h3>
+              <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+              <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+              <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+              <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+              <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+          </div>
+  
+      </div>
+  
+  </section>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file links  -->
+<script src="js/script.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      delay:400,
+      duration:800
+  });
+</script>
+    <script src="js/product.js"></script>
+</body>
+</html>

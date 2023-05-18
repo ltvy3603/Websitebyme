@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelwery</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!--  css   -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-gem"></i> Jelwery </a>
+
+    <nav class="navbar">
+        <a href="./index.html" class="active">home</a>
+        <a href="./products.html" >products</a>
+        <a href="./about.html">about</a>
+        <a href="index.html#arrivals">arrivals</a>
+        <a href="./contact.html">contact</a>
+        <div class="blog-container">
+            <a href="index.html#blogs">blogs</a>
+            <div class="multi-level">
+                <span></span>
+                <a href="./blog1.html"><button>Gem Obsessed</button></a>
+                <a href="./blog2.html"><button>IDazzle</button></a>
+                <a href="./blog3.html"><button>Rio Grande Blog</button></a>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="./cart.html" class="fas fa-shopping-cart"></a>
+        <a href="./signin.html" class="fas fa-user"></a>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="text" placeholder="search here..." id="input-box" onkeyup="MyFunction()">
+        <label for="input-box" class="fas fa-search"></label>
+        <!-- <ul id="mySearch">
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Best Sellers</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul> -->
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box" style="background: url(img/background3.jpg);">
+                <div class="content">
+                    <h3>Jelwery Shop</h3>
+                    <p>special discount</p>
+                    <div class="button">
+                        <a href="./products.html" class="btn">shop now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box" style="background: url(img/background5.jpg);">
+                <div class="content">
+                    <h3>up to 30% off</h3>
+                    <p>on all products</p>
+                    <div class="button">
+                        <a href="./products.html" class="btn">shop now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box" style="background: url(img/background6.jpg);">
+                <div class="content">
+                    <h3>limited product</h3>
+                    <p>don't miss it</p>
+                    <div class="button">
+                        <a href="./products.html" class="btn">shop now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- products section starts  -->
+
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="swiper products-slider" data-aos="zoom-in">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="./cart.html" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="img/New arrivals/2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Best Sellers</h3>
+                    <div class="price"> $19.99 <span>$25.50</span> </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="./cart.html" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="img/Best Sellers/Wave ring.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Popular Categories</h3>
+                    <div class="price"> $25.00 <span>$35.00</span> </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="./cart.html" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="img/Best Sellers/ShopRings.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>New Arrivals</h3>
+                    <div class="price"> $55.99 <span>$60.00</span> </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="./cart.html" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="img/Best Sellers/Wave ring1.webp" alt="">
+                </div>
+                <div class="content">
+                    <h3>Best Sellers </h3>
+                    <div class="price"> $29.99 <span>$35.99</span> </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="./cart.html" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+                <div class="image">
+                    <img src="img/New arrivals/1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Popular Categories</h3>
+                    <div class="price"> $30.00 <span>$35.00</span> </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- products section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="content" data-aos="fade-right">
+        <h3>about us</h3>
+        <p>Need a gift for your mom, wife, grandma, or mother-in-law? Just answer a few simple questions and let us do the rest.</p>
+        <a href="./about.html" class="btn">read more</a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- arrivals section starts  -->
+
+<section class="arrivals" id="arrivals">
+
+    <h1 class="heading"> new <span>arrivals</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-right">
+            <div class="icons">
+                <a href="./cart.html" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+            <div class="image">
+                <a href='/product1.html'>
+                    <img src="img/Populars/Ring1.webp" alt="">
+                </a>
+            </div>
+            <div class="content">
+                <h3>Rings Oval Cubic</h3>
+                <div class="price"> $69.99 <span>$96.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-down">
+            <div class="icons">
+                <a href="./cart.html" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+            <div class="image">
+                <a href='/product2.html'>
+                    <img src="img/New arrivals/9.jpg" alt="">
+                </a>
+            </div>
+            <div class="content">
+                <h3>Crystal Pendant Necklace</h3>
+                <div class="price"> $56.99 <span>$79.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            <div class="icons">
+                <a href="./cart.html" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+            <div class="image">
+                <a href='/product3.html'>
+                    <img src="img/New arrivals/5.jpg" alt="">
+                </a>
+            </div>
+            <div class="content">
+                <h3>Wave Rings</h3>
+                <div class="price"> $25.00 <span>$35.00</span> </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-right">
+            <div class="icons">
+                <a href="./cart.html" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+            <div class="image">
+                <a href='/product4.html'>
+                    <img src="img/Populars/Earrings2.jpg" alt="">
+                </a>
+            </div>
+            <div class="content">
+                <h3>Diamond Cubic Square Earrings</h3>
+                <div class="price"> $37.63 <span>$49.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-down">
+            <div class="icons">
+                <a href="./cart.html" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+            <div class="image">
+                <a href='/product5.html'>
+                    <img src="img/Populars/Bracelets3.webp" alt="">
+                </a>
+            </div>
+            <div class="content">
+                <h3>Heart Charm Bracelets</h3>
+                <div class="price"> $19.00 <span>$26.00</span> </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            <div class="icons">
+                <a href="./cart.html" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <a href="#" class="fas fa-share"></a>
+            </div>
+            <div class="image">
+                <a href='/product6.html'>
+                    <img src="img/Populars/Ring2.webp" alt="">
+                </a>
+            </div>
+            <div class="content">
+                <h3>Heart Rings</h3>
+                <div class="price"> $30.60 <span>$36.00</span> </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- arrivals section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.575523350367!2d106.76906167490878!3d10.843760389309113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752709c18c4a9b%3A0x53dfb522c6349b73!2zNzAyIFhMIEjDoCBO4buZaSwgSGnhu4dwIFBow7osIFF14bqtbiA5LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmggNzAwMDAsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1683884360062!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+            <h3 data-aos="zoom-in">tell us something!</h3>
+            <input data-aos="zoom-in" type="text" placeholder="your name" class="box">
+            <input data-aos="zoom-in" type="email" placeholder="your email" class="box">
+            <input data-aos="zoom-in" type="number" placeholder="your number" class="box">
+            <textarea data-aos="zoom-in" placeholder="your message" class="box" cols="30" rows="10"></textarea>
+            <input data-aos="zoom-in" type="submit" value="send message" class="btn">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- blogs section starts  -->
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-right">
+            <div class="image">
+                <img src="img/New arrivals/4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Cheryl Kremkow – Gem Obsessed</h3>
+                <p>This blog focuses on trends and celebrity jewelry. Cheryl has a strong background in developing jewelry related content – she has been covering jewelry for 25+ years and was editor-in-chief of jewelry magazines such as Modern Jewelry and Lustre.</p>
+                <a href="./blog1.html" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 12/05/2023 </a>
+                    <a href="#"> <i class="fas fa-user"></i> Le Tuong Vy </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-down">
+            <div class="image">
+                <img src="img/New arrivals/9.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Monica Stephenson – iDazzle</h3>
+                <p>This blog has a wide variety of topics from designer profiles to celebrity jewelry to gift ideas. Her impressive qualifications include being the editor at the Contemporary Jewelry Design Group, having worked in several high-end jewelry stores and has a degree from the GIA.</p>
+                <a href="./blog2.html" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 10/05/2023 </a>
+                    <a href="#"> <i class="fas fa-user"></i> Le Tuong Vy </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            <div class="image">
+                <img src="img/New arrivals/new1.avif" alt="">
+            </div>
+            <div class="content">
+                <h3>Rio Grande Blog</h3>
+                <p>Their blog is written to support their makers learn new skills and grow their businesses. Different writers write across several topics on the blog.This blog has a huge archive of content. </p>
+                <a href="./blog3.html" class="btn">read more</a>
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-calendar"></i> 09/05/2023 </a>
+                    <a href="#"> <i class="fas fa-user"></i> Le Tuong Vy </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer" id="footer">
+
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-right">
+            <h3>services</h3>
+            <a href="#"> <i class="fas fa-gem"></i> rings </a>
+            <a href="#"> <i class="fas fa-gem"></i> bracelets </a>
+            <a href="#"> <i class="fas fa-gem"></i> earrings </a>
+            <a href="#"> <i class="fas fa-gem"></i> necklaces </a>
+            <a href="#"> <i class="fas fa-gem"></i> new products </a>
+        </div>
+
+        <div class="box" data-aos="fade-down">
+            <h3>quick links</h3>
+            <a href="./index.html"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="./products.html"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="./about.html"> <i class="fas fa-arrow-right"></i> about </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> arrivals </a>
+            <a href="./contact.html"> <i class="fas fa-arrow-right"></i> contact </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box" data-aos="fade-up">
+            <h3>contact us</h3>
+            <a href="tel: 0363367523"> <i class="fas fa-phone"></i> 0363367523 </a>
+            <a href="tel: 0977361050"> <i class="fas fa-phone"></i> 0977361050 </a>
+            <a href="mailto: 21126107@student.hcmute.edu.vn"> <i class="fas fa-envelope"></i> 21126107@student.hcmute.edu.vn </a>
+            <a href="mailto: 21126029@student.hcmute.edu.vn"> <i class="fas fa-envelope"></i> 21126029@student.hcmute.edu.vn </a>
+            <a href="#contact"> <i class="fas fa-gem"></i> BinhThanh, HCM </a>
+        </div>
+
+        <div class="box" data-aos="fade-left">
+            <h3>contact us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file links  -->
+<script src="js/script.js"></script>
+<script src="js/search.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+      delay:400,
+      duration:800
+  });
+</script>
+
+</body>
+</html>
